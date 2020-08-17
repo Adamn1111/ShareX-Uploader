@@ -54,10 +54,10 @@ if (isset($_POST['secret'])) {
             echo 'File upload failed - CHMOD/Folder doesn\'t exist?';
         }
     } else {
-        echo 'Invalid Secret Key';
+        echo 'Invalid Secret Key'; // If key is incorrect, return
     }
 } else {
-    echo 'No post data recieved';
+    echo 'No post data recieved'; // If upload.php receives no data, return
 }
 
 ?>
