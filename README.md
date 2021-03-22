@@ -1,6 +1,10 @@
 # ShareX-Uploader
-PHP for a ShareX Uploader - With all the bells and whistles included.
+ShareX uploader with randomly generated filenames.
 
-### What is this?
-This is a ShareX uploader template. It allows you to set up your own custom image uploader using ShareX.
-I will not provide a tutorial, this should only require 2-3 braincells.
+### Usage?
+
+This should not be difficult to set up. It's simple.
+
+1. wget upload.php into your webroot, or optionally download/upload the file to your webroot (/)
+2. edit the file, follow steps as outlined in file comments, bob's your uncle.
+3. post to it using ShareX.
